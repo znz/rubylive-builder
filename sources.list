@@ -1,3 +1,3 @@
-deb http://ftp.jp.debian.org/debian wheezy main
-deb http://ftp.jp.debian.org/debian wheezy-updates main
+deb http://cdn.debian.or.jp/debian wheezy main
+deb http://cdn.debian.or.jp/debian wheezy-updates main
 deb http://security.debian.org wheezy/updates main
