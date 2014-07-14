@@ -8,4 +8,4 @@ else
     git clone https://github.com/znz/rubylive
     cd rubylive
 fi
-time rake
+time rake APT_HTTP_PROXY=http://localhost:3142
