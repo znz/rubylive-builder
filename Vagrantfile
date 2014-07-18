@@ -6,6 +6,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ffuenf/debian-7.6.0-amd64"
+  config.vm.hostname = ENV["VM_HOSTNAME"] || "rubylive-builder"
 
   # apt-cacher-ng
   #config.vm.network "forwarded_port", guest: 3142, host: 3142
