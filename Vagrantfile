@@ -5,7 +5,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "ffuenf/debian-7.6.0-amd64"
+  config.vm.box = "ffuenf/debian-8.2.0-amd64"
   config.vm.hostname = ENV["VM_HOSTNAME"] || "rubylive-builder"
 
   # apt-cacher-ng
